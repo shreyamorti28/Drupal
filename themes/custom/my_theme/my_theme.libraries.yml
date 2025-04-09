@@ -1,0 +1,8 @@
+global-styling:
+  css:
+    theme:
+      css/tailwind.css: {}
+  js:
+    js/script.js: {}
+  dependencies:
+    - core/jquery
