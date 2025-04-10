@@ -8,20 +8,26 @@
 
 ---
 
-## 📁 Folder Structure
+## Description
+A simple responsive Drupal 10 theme built from scratch with custom regions and styling.
 
-my_theme/
-├── css/
-│   ├── style.css
-│   └── tailwind.css          # Generated after build
-├── js/
-│   └── script.js
-├── templates/
-│   └── page.html.twig
-├── my_theme.info.yml
-├── my_theme.libraries.yml
-├── my_theme.theme
-├── package.json
-├── postcss.config.js
-├── tailwind.config.js
-└── README.md
+## Regions
+- Top Banner
+- Logo
+- Navigation Menu
+- Left Sidebar
+- Content
+- Footer
+
+## Setup
+1. Place theme in `/themes/custom/mytheme/`
+2. Run `drush theme:enable mytheme`
+3. Run `drush config:set system.theme default mytheme`
+
+## Assets
+- CSS file located in `/css/style.css`
+- JS file located in `/js/script.js`
+
+## Customizations
+- Responsive layout using basic CSS Flexbox
+- Minimal JS added for scalability
